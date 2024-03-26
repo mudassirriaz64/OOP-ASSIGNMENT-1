@@ -1,0 +1,21 @@
+Monday:
+8:30 - 10:25 : CC ( Dr. Adeel )  ( Room 4-18 )
+12:30 - 2:25 : HCI ( Dr. Joddat )  ( Room 4-17 )
+2:30 - 3:25 : TRW ( Dr. Baseer ) ( Room 4-17 )
+
+Tuesday:
+8:30 - 10:25 : SQE ( Dr. Tamim )  ( Room 4-18 )
+10:30 - 11:25 : HCI ( Dr. Joddat )  ( Room 4-17 )
+11:30 - 2:25 : CC Lab ( Engr. Aamir ) ( Lab 4-02 )
+2:30 - 4:25 : TRW ( Dr. Baseer ) ( Room 4-18 )
+
+Thrusday:
+8:30 - 10:25 : WE ( Engr. Rafia ) ( Room 4-19 )
+11:30 - 2:25 : WE Lab ( Engr. Aamir ) ( Lab 4-02 )
+2:30 - 4:25 : AI ( Dr. Kashif ) ( Room 4-18 )
+
+Friday:
+8:30 - 11:25 : AI Lab ( Engr. Waleed ) ( Lab 4-01 )
+11:25 - 12:30 : SQE ( Dr. Tamim ) ( Room 4-18 )
+
+

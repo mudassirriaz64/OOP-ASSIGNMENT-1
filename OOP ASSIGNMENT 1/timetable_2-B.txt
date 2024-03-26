@@ -1,0 +1,22 @@
+Monday:
+8:30 - 10:25 : Introduction to Software Engineering ( Dr. Awais Majeed )  ( Room 4-17 )
+11:30 - 1:25 : Object Oriented Programming ( Dr. Tamim Khan )  ( Room 4-19 )
+3:30 - 4:25 : Linear Algerba ( Sir Zubair Abbasi ) ( Room 4-19 )
+
+Tuesday:
+10:30 - 11:25 : Introduction to Software Engineering ( Dr. Awais Majeed )  ( Room 4-18 )
+11:30 - 12:25 : Object Oriented Programming ( Dr. Tamim Khan )  ( Room 4-19 )
+2:30 - 1:25 : Discrete Structures ( Engr. Sadaf ) ( Room 4-17 )
+2:30 - 4:25 : Linear Algerba ( Sir Zubair Abbasi ) ( Room 4-19 )
+
+Wednesday:
+10:30 - 12:25 : Effective Communication Skills ( Sir Ghulam Qamar ) ( Room 4-17 )
+2:30 - 4:25 :  Islamic Studies (Dr. Rahim Ullah )  (Room 108)
+
+Thrusday:
+8:30 - 11:25 : Object Oriented Programming Lab ( Engr. Waleed ) ( Lab 4-01 )
+
+Friday:
+9:30 - 11:25 : Discrete Structures ( Engr. Sadaf ) ( Room 4-17 )
+
+
