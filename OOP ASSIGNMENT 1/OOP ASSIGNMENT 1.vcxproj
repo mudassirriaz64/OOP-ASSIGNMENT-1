@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="data_handler.h" />
+    <ClInclude Include="main.h" />
     <ClInclude Include="person.h" />
     <ClInclude Include="room.h" />
     <ClInclude Include="section.h" />
@@ -134,6 +136,7 @@
     <ClInclude Include="teacher.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="data_handler.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="section.cpp" />
     <ClCompile Include="teacher.cpp" />

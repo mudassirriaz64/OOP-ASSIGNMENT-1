@@ -30,6 +30,12 @@
     <ClInclude Include="room.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="data_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -39,6 +45,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="section.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="data_handler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
