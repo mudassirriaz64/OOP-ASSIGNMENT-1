@@ -15,8 +15,9 @@ int main()
 start:
     system("cls");
     cout << "\tTime Table Management System\n\n";
-    cout << "1. Teacher Wise Time Table\n2. Student Wise Time Table\n3. Section Wise Time Table\n4. Room Wise Time Table\n5. Remove Teacher\n6. View Teachers\n\nSelect Your Option: ";
+    cout << "1. Teacher Wise Time Table\n2. Student Wise Time Table\n3. Section Wise Time Table\n4. Room Wise Time Table\n5. Remove Teacher\n6. View Teachers\n7. Search Timetable\n8. Exit\n\nSelect Your Option: ";
     cin >> choice;
+    cin.ignore();
     switch (choice)
     {
     case 1:
@@ -49,9 +50,10 @@ start:
                     }
                     else if (teacher_choice == "2")
                     {
-                        return 0;
+                        goto start;
                     }
-                    else {
+                    else 
+                    {
                         cout << "Invalid Selection, Try again : ";
                         getline(cin, teacher_choice);
                     }
@@ -96,7 +98,7 @@ start:
                     }
                     else if (student_choice == "2")
                     {
-                        return 0;
+                        goto start;
                     }
                     else
                     {
@@ -119,7 +121,6 @@ start:
         system("cls");
         string section_choice;
         cout << "Enter Section (2-A, 2-B, 4-A, 6-A, 8-A): ";
-        cin.ignore();
         getline(cin, section_choice);
         string filename = FILE_PREFIX + section_choice + ".txt";
         ifstream file(filename);
@@ -140,18 +141,46 @@ start:
             system("pause");
             goto start;
         }
-        break;
+        system("pause");
+        goto start;
     }
     case 4:
-        // Room Function would be called
-        break;
+    {
+        system("cls");
+        string room_name;
+        cout << "Enter Room (4-17, 4-18, 4-19): ";
+        getline(cin, room_name);
+        string filename = FILE_PREFIX + room_name + ".txt";
+        ifstream file(filename);
+        if (file.is_open())
+        {
+            system("cls");
+            cout << "Timetable for Section " << room_name << ":\n";
+            string line;
+            while (getline(file, line))
+            {
+                cout << line << endl;
+            }
+            file.close();
+        }
+        else
+        {
+            cout << "Unable to open timetable file for room " << room_name << endl;
+            system("pause");
+            goto start;
+        }
+        system("pause");
+        goto start;
+    }
     case 5:
     {
+        system("cls");
         string id;
         cout << "Enter Application ID of Teacher to remove: ";
         cin >> id;
         removeTeacher(id);
-        break;
+        system("pause");
+        goto start;
     }
     case 6:
     {
@@ -159,6 +188,14 @@ start:
         displayTeachers();
         system("pause");
         goto start;
+    }
+    case 7:
+    {
+        searchtimetable();
+    }
+    case 8:
+    {
+        break;
     }
     }
     return 0;

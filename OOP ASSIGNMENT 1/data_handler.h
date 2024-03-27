@@ -24,5 +24,6 @@ void removeTeacher(const std::string& application_id);
 void displayTeachers();
 void displayTimetable(const student& s);
 void displayTeacherTimetable(const std::string& application_id);
+void searchtimetable();
 
 #endif

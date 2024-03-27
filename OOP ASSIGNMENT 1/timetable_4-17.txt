@@ -1,0 +1,20 @@
+Monday:
+8:30 - 10:25 : Introduction to Software Engineering ( Dr. Awais Majeed )  ( BSE 2-B )
+10:30 - 12:25 : Introduction to Software Engineering ( Dr. Awais Majeed )  ( BSE 2-A )
+12:30 - 2:25 : HCI ( Dr. Joddat )  ( BSE 6-A )
+2:30 - 3:25 : TRW ( Dr. Baseer ) ( BSE 6-A )
+
+Tuesday:
+9:30 - 10:25 : Discrete Structures ( Engr. Sadaf ) ( BSE 2-A )
+10:30 - 11:25 : Discrete Structures ( Engr. Sadaf ) ( BSE-2B )
+11:30 - 12:25 : Database Management System ( Dr. Joddat Fatima )  ( BSE 4-A )
+2:30 - 4:25 : SDA ( Dr. Awais Majeed ) ( BSE 4-A )
+
+Wednesday:
+8:30 - 10:25 : Effective Communication Skills ( Sir Ghulam Qamar ) ( BSE 2-A )
+10:30 - 12:25 : Effective Communication Skills ( Sir Ghulam Qamar ) ( BSE 2-B )
+
+Friday:
+11:30 - 12:25 : Design and Analysis of Algorithms ( Engr. Sadaf )  ( BSE 4-A )
+
+

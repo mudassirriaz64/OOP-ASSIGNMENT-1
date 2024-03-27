@@ -1,0 +1,20 @@
+Monday:
+8:30 - 10:30 : CC ( Dr. Adeel ) ( BSE 8-A )
+9:30 - 10:30 : Discrete Structures ( Engr. Sadaf ) ( BSE 2-A )
+10:30 - 12:25 : Introduction to Software Engineering ( Dr. Awais Majeed )  ( BSE 2-A )
+11:30 - 1:25 : DAA ( Engr. Sadaf ) ( BSE 4-A )
+
+Tuesday:
+8:30 - 10:30 : SQE ( Dr. Tamim Ahmed ) ( BSE 8-A )
+9:30 - 10:25 : Introduction to Software Engineering ( Dr. Awais Majeed )  ( BSE 2-B )
+10:30 - 11:25 : Introduction to Software Engineering ( Dr. Awais Majeed )  ( BSE 2-A )
+11:30 - 12:30 : EM ( Engr. Bilal )
+12:30 - 2:30 : TRW ( Dr. Baseer )
+
+Thrusday:
+12:30 - 2:25 : AI ( Dr. Kashif ) ( BSE 6-A )
+
+Friday:
+10:30 - 11:30 : SQE ( Dr. Tamim Ahmed ) ( BSE 6-A )
+
+

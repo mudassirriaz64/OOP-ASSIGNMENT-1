@@ -10,3 +10,5 @@ class teacher : public person
 public:
     std::string application_id;
 };
+
+#endif // TEACHER_H

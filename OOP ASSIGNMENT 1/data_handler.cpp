@@ -123,8 +123,10 @@ void load_timetable_data()
 void saveTeachers()
 {
     ofstream teacherFile(TEACHER_FILE);
-    if (teacherFile.is_open()) {
-        for (const auto& teacher : teachers_list) {
+    if (teacherFile.is_open()) 
+    {
+        for (const auto& teacher : teachers_list)
+        {
             teacherFile << teacher.application_id << endl;
             teacherFile << teacher.name << endl;
         }
@@ -213,6 +215,53 @@ void displayTeacherTimetable(const string& application_id)
     }
     cout << "Timetable not found for Teacher with this Application ID : " << application_id << endl;
 }
+
+void searchtimetable()
+{
+    system("cls");
+    string section_name, time_slot, day_to_be_found;
+    cout << "Enter Section (2-A, 2-B, 4-A, 6-A, 8-A): ";
+    getline(cin, section_name);
+    cout << "Enter time (e.g., 8:30): ";
+    getline(cin, time_slot);
+    cout << "Enter day (e.g., Monday): ";
+    getline(cin, day_to_be_found);
+    day_to_be_found = day_to_be_found + ":";
+    string filename = FILE_PREFIX + section_name + ".txt";
+
+    ifstream file(filename);
+    system("cls");
+    if (file.is_open())
+    {
+        string line;
+        bool found = false;
+        while (getline(file, line))
+        {
+            if (line == day_to_be_found)
+            {
+                found = true;
+                cout << "Timetable for " << day_to_be_found << " in Section " << section_name << ":\n";
+                while (getline(file, line) && line != "")
+                {
+                    cout << line << endl;
+                }
+                break;
+            }
+        }
+        file.close();
+        if (!found)
+        {
+            cout << "Timetable not found for " << day_to_be_found << " in Section " << section_name << ".\n";
+        }
+    }
+    else
+    {
+        cout << "Unable to open timetable file for Section " << section_name << endl;
+    }
+}
+
+
+
 
 void displayTeachers()
 {
