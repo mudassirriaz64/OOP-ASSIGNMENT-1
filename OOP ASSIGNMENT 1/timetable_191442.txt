@@ -1,10 +1,2 @@
-Monday:
-8:30 - 10:25 : Introduction to Software Engineering ( BSE-2B )  ( Room 4-17 )
-11:30 - 1:25 : Introduction to Software Engineering ( BSE-2A )  ( Room 4-18 )
-
-Tuesday:
-10:30 - 11:25 : Introduction to Software Engineering ( BSE-2B )  ( Room 4-18 )
-11:30 - 12:25 : Introduction to Software Engineering ( BSE 2-A )  ( Room 4-17 )
-2:30 - 4:25 : SDA ( BSE-4A ) ( Room 4-17 )
-
-
+Monday 8:30 10:25 Intro to Software Engineering - BSE 2-B - ROOM 4-17
+Monday 11:30 1:25 Intro to Software Engineering - BSE 2-A - ROOM 4-18
